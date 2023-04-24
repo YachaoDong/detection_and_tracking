@@ -1,0 +1,11 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/data/person_data/train.txt  # 118287 images
+val: /home/data/person_data/test.txt  # 5000 images
+test: /home/data/person_data/val.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+nc: 1  # number of classes 1
+
+names: ['person']  # class names
+
